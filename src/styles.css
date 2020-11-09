@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+header .nav-item:last-child {
+  margin-right: 30px;
+}
+
+.search_inpt input {
+  padding: 3px 27px 3px 7px;
+}
+
+.search_inpt {
+  position: relative;
+  width: 100%;
+}
+
+.search_inpt_icon {
+  position: absolute;right: 12px;
+  color: #bf6c4a;
+}
+
+.advnce_srch {
+  position: absolute;
+  bottom: -15px;
+  left: -9px;
+  text-align: right;
+}
+
+@media screen and (max-width:1380px) {
+  .social_medias ul li {
+    display: inline;
+    margin: 0 4px;
+  }
+}
+
+@media screen and (max-width:1236px) {
+  .groupsv {
+    width: 140px !important;
+  }
+  header .social_medias ul li {
+    margin: 0 3px;
+    font-size: 12px;
+  }
+}
