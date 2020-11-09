@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
-header .nav-item:last-child {
+/* header .nav-item:last-child {
   margin-right: 30px;
-}
+} */
 
-.search_inpt input {
+/* .search_inpt input {
   padding: 3px 27px 3px 7px;
 }
 
@@ -23,7 +23,7 @@ header .nav-item:last-child {
   bottom: -15px;
   left: -9px;
   text-align: right;
-}
+} */
 
 .go_to_top {
     position: fixed;
@@ -33,6 +33,28 @@ header .nav-item:last-child {
     cursor: pointer;
     width: 50px;
 }
+
+.footer_icons {
+  fill: #bf6c4a;
+}
+
+.inner_page_heading {
+  background: linear-gradient(90deg, rgba(191, 108, 74, 0.69) 0%, rgba(165, 84, 56, 0.75) 100%), url(assets/images/inner-page-bg.png);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  box-shadow: 0px 0px 30px 5px #000000a1;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+}
+
+.terms-page-hero {
+  background: linear-gradient(90deg, rgba(191, 108, 74, 0.69) 0%, rgba(165, 84, 56, 0.75) 100%), url(assets/images/terms-page-hero.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
 
 @media screen and (max-width:1380px) {
   .social_medias ul li {

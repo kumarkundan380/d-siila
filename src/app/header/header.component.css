@@ -26,9 +26,86 @@
   font-size: 0.75rem;
 }
 
+.theme_header .form-inline .search_header {
+  max-width: 33%;
+}
+
+header .nav-item:last-child {
+  margin-right: 30px;
+}
+
+.search_inpt input {
+  padding: 3px 27px 3px 7px;
+}
+
+.search_inpt {
+  position: relative;
+  width: 100%;
+}
+
+.search_inpt_icon {
+  position: absolute;right: 12px;
+  color: #bf6c4a;
+}
+
+.advnce_srch {
+  position: absolute;
+  bottom: -15px;
+  left: -9px;
+  text-align: right;
+}
+
 .navbar {
   padding: 0
 }
+
+.menu_item_icon i {
+  width: 25px;
+}
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -22px;
+  left: 0;
+  font-size: 53px;
+}
+
+.sidenav .menu_item_icon svg {
+  width: 16px;
+  margin-right: 7px;
+  margin-bottom: 3px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+.sidenav a.active {
+  background: #BF6C4A;
+  color: #fff;
+}
+
+.sidenav a.active .side-bar-svg {
+  fill: #fff;
+}
+
+.sidenav .side_social_media .social_medias h6 {
+  display: block;
+}
+
+.sidenav .side_social_media .social_medias ul li {
+  display: inline-block;
+}
+
+.sidenav .side_social_media .social_medias ul li a {
+  padding: 0 10px
+}
+
+.sidenav .side_social_media {
+  padding: 9px 10px;
+  background: #ababab5e;
+}
+
 
 /*social media icons css*/
 
