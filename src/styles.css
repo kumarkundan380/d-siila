@@ -25,6 +25,15 @@ header .nav-item:last-child {
   text-align: right;
 }
 
+.go_to_top {
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    z-index: 100;
+    cursor: pointer;
+    width: 50px;
+}
+
 @media screen and (max-width:1380px) {
   .social_medias ul li {
     display: inline;

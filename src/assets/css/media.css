@@ -18,7 +18,7 @@
     font-size: 12px;
     margin-right: 8px;
     margin-bottom: 5px;
-   
+
 }
 .all_seekers .each_seeker img
 {
@@ -28,7 +28,7 @@
 {
         width: 25px;
         margin-top: 16px;
-    
+
     }
 
 .img_title_wrapper h1
@@ -45,7 +45,7 @@
 {
 	margin: 0 12px;
 }*/
-} 
+}
 @media screen and (min-width:768px){
 	.team_filter
 	{
@@ -83,7 +83,7 @@
 {
 	    /* height: 75vh; */
         height: 567px;
-        
+
 }
 
 
@@ -119,10 +119,6 @@
     .team_main .team_card_all
     {
     	    min-height: 335px;
-    }
-    .profile-wisdom-wall, .profile_reso, .user_profile
-    {
-        /*max-height: 500px;*/
     }
     .brand_logo
     {
@@ -163,7 +159,7 @@
     .logo-responsive {
         display: inline-block;
     }
-    .brand_logo 
+    .brand_logo
     {
         text-align: center;
         top: 10px;
