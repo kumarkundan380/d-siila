@@ -1,1 +1,44 @@
+.theme_footer .navbar {
+  padding: 0
+}
+
+.theme_footer {
+  box-shadow: 0px -5px 50px -19px #000000a1;
+}
+
+.theme_footer nav {
+  display: inline-block;
+}
+
+.copyright {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.copyright a {
+  color: #BF6C4A;
+  text-decoration: none;
+  font-weight: bold
+}
+
+.theme_footer .navbar-nav {
+  display: block;
+}
+
+.theme_footer nav .nav-item .nav-link {
+  padding: 8px 13px;
+}
+
+.theme_footer nav .nav-item .nav-link:hover {
+  color: #bb6847;
+}
+
+.theme_footer nav .nav-item {
+  display: inline-block;
+}
+
+.theme_footer nav .nav-item .nav-link svg {
+  width: 18px;
+  margin-bottom: 3px;
+}
 

@@ -15,6 +15,7 @@ import { TermsComponent } from './terms/terms.component';
 import { BlankComponent } from './layout/blank/blank.component';
 import { FullComponent } from './layout/full/full.component';
 import { PartialComponent } from './layout/partial/partial.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PartialComponent } from './layout/partial/partial.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
