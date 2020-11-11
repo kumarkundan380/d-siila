@@ -372,97 +372,12 @@ textarea:focus {
 /*mobile menu sidebar css*/
 
 
-/* The side navigation menu */
 
-.sidenav {
-    height: 100%;
-    /* 100% Full-height */
-    width: 330px;
-    /* 0 width - change this with JavaScript */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1001;
-    /* Stay on top */
-    top: 0;
-    /* Stay at the top */
-    left: -330px;
-    background-color: #fff;
-    /* Black*/
-    overflow-x: hidden;
-    /* Disable horizontal scroll */
-    padding-top: 60px;
-    /* Place content 60px from the top */
-    transition: 0.5s;
-    /* 0.5 second transition effect to slide in the sidenav */
-    box-shadow: 0px 5px 50px -19px #000000a1;
-}
+
 
 body.active_sidemenu .sidenav {
     left: 0;
 }
-
-
-/* The navigation menu links */
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #4C4C4C;
-    font-weight: 500;
-    display: block;
-    transition: 0.3s;
-}
-
-
-
-/* Position and style the close button (top right corner) */
-
-
-
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-
-/* .sidenav a.active {
-    background: #BF6C4A;
-    color: #fff;
-}
-
-.sidenav a.active .side-bar-svg {
-    fill: #fff;
-}
-
-.sidenav .side_social_media .social_medias h6 {
-    display: block;
-}
-
-.sidenav .side_social_media .social_medias ul li {
-    display: inline-block;
-}
-
-.sidenav .side_social_media .social_medias ul li a {
-    padding: 0 10px
-}
-
-.sidenav .side_social_media {
-    padding: 9px 10px;
-    background: #ababab5e;
-} */
-
-/* .side_menu_opener {
-    font-size: 25px;
-    color: #a8563a;
-} */
-
-/* .menu_item_icon i {
-    width: 25px;
-} */
-
-/* .sidenav .menu_item_icon svg {
-    width: 16px;
-    margin-right: 7px;
-    margin-bottom: 3px;
-} */
 
 .body_bg {
     background-color: rgba(191, 108, 74, 0.57);

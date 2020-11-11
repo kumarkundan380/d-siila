@@ -16,6 +16,7 @@ import { BlankComponent } from './layout/blank/blank.component';
 import { FullComponent } from './layout/full/full.component';
 import { PartialComponent } from './layout/partial/partial.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AdvanceSearchComponent } from './advance-search/advance-search.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TermsComponent,
     BlankComponent,
     FullComponent,
-    PartialComponent
+    PartialComponent,
+    AdvanceSearchComponent
   ],
   imports: [
     BrowserModule,

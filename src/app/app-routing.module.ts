@@ -8,6 +8,7 @@ import { SiilafoundationComponent } from './siilafoundation/siilafoundation.comp
 import { TeamComponent } from './team/team.component';
 import { TermsComponent } from './terms/terms.component';
 import { PartialComponent } from './layout/partial/partial.component';
+import { AdvanceSearchComponent } from './advance-search/advance-search.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -22,6 +23,7 @@ const routes: Routes = [
           {path: 'faq', component: FaqComponent},
           {path: 'terms', component: TermsComponent},
           {path: 'jobs', component: JobsComponent},
+          {path: 'advancesearch', component: AdvanceSearchComponent}
       ]
   },
 ];
